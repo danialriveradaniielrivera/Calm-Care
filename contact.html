@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Calm Care — Schedule Your Dental Appointment in Newtown</title>
+    <meta name="description" content="Contact Calm Care for compassionate dental care in Newtown. Schedule consultations, ask questions, or learn about our anxiety-friendly treatments.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">Calm Care</a></h1>
+            </div>
+            <nav class="nav" role="navigation">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="hamburger"></span>
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="treatments.html" class="nav-link">Treatments</a></li>
+                    <li><a href="cosmetic-restorative.html" class="nav-link">Cosmetic & Restorative</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Contact Calm Care</h1>
+                <p>We're here to help you achieve the healthy, beautiful smile you deserve</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <p>Whether you're ready to schedule an appointment, have questions about our treatments, or want to learn more about our anxiety-friendly approach, we're here to help.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <h3>Practice Information</h3>
+                                <p><strong>Calm Care</strong><br>
+                                Located in the heart of Newtown<br>
+                                Serving patients throughout the greater area</p>
+                            </div>
+
+                            <div class="contact-item">
+                                <h3>Email</h3>
+                                <p><a href="mailto:contact@calmcaredental.com" class="email-link">contact@calmcaredental.com</a></p>
+                                <p>We typically respond to emails within 24 hours during business days.</p>
+                            </div>
+
+                            <div class="contact-item">
+                                <h3>Office Hours</h3>
+                                <p><strong>Monday - Friday:</strong> 8:00 AM - 6:00 PM<br>
+                                <strong>Saturday:</strong> 9:00 AM - 4:00 PM<br>
+                                <strong>Sunday:</strong> Emergency appointments only</p>
+                            </div>
+
+                            <div class="contact-item">
+                                <h3>Emergency Care</h3>
+                                <p>For dental emergencies outside of office hours, please call our main number and follow the prompts for emergency instructions.</p>
+                            </div>
+                        </div>
+
+                        <div class="email-cta">
+                            <h3>Quick Email Contact</h3>
+                            <p>Send us a message directly:</p>
+                            <a href="mailto:contact@calmcaredental.com?subject=Website enquiry - Calm Care" class="btn btn-secondary large">Email Us Now</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <h2>Send Us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you as soon as possible.</p>
+                        
+                        <form class="contact-form" id="contactForm" novalidate>
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required aria-describedby="name-error">
+                                <div class="error-message" id="name-error" aria-live="polite"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required aria-describedby="email-error">
+                                <div class="error-message" id="email-error" aria-live="polite"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number (Optional)</label>
+                                <input type="tel" id="phone" name="phone" aria-describedby="phone-help">
+                                <div class="help-text" id="phone-help">Include if you prefer a phone call back</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="preferred-contact">Preferred Contact Method</label>
+                                <select id="preferred-contact" name="preferred-contact">
+                                    <option value="email">Email</option>
+                                    <option value="phone">Phone Call</option>
+                                    <option value="either">Either Email or Phone</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">What can we help you with?</label>
+                                <select id="subject" name="subject">
+                                    <option value="consultation">Schedule a Consultation</option>
+                                    <option value="treatment-info">Treatment Information</option>
+                                    <option value="insurance">Insurance Questions</option>
+                                    <option value="anxiety">Anxiety-Friendly Care Options</option>
+                                    <option value="emergency">Dental Emergency</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required aria-describedby="message-error" placeholder="Please describe how we can help you, any specific concerns, or questions you have about our treatments..."></textarea>
+                                <div class="error-message" id="message-error" aria-live="polite"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary large">Send Message</button>
+                        </form>
+
+                        <div class="form-success" id="form-success" style="display: none;">
+                            <h3>Thank You!</h3>
+                            <p>We've received your message and will get back to you soon. Here's what happens next:</p>
+                            <ul>
+                                <li>We'll review your message within 24 hours</li>
+                                <li>A team member will contact you using your preferred method</li>
+                                <li>For urgent matters, don't hesitate to call us directly</li>
+                            </ul>
+                            <div class="success-contact">
+                                <p><strong>In the meantime, you can also reach us directly:</strong></p>
+                                <a href="mailto:contact@calmcaredental.com?subject=Follow-up - Website Contact" class="btn btn-secondary">Email Directly</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="location-section">
+                    <h2>Visit Our Newtown Practice</h2>
+                    <div class="location-grid">
+                        <div class="location-info">
+                            <h3>Convenient Newtown Location</h3>
+                            <p>Our modern practice is conveniently located in Newtown, easily accessible by public transport and with nearby parking options available.</p>
+                            
+                            <h4>What to Expect During Your Visit</h4>
+                            <ul>
+                                <li>Welcoming reception area with comfortable seating</li>
+                                <li>State-of-the-art treatment rooms designed for comfort</li>
+                                <li>Anxiety-friendly amenities and sedation options</li>
+                                <li>Flexible scheduling including evening and weekend appointments</li>
+                            </ul>
+
+                            <h4>New Patient Information</h4>
+                            <p>If you're a new patient, please plan to arrive 15 minutes early for your first visit to complete paperwork. We'll conduct a comprehensive examination and discuss your oral health goals and concerns.</p>
+                        </div>
+
+                        <div class="map-placeholder">
+                            <div class="map-placeholder-content">
+                                <svg class="map-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                </svg>
+                                <h3>Calm Care</h3>
+                                <p>Newtown, Sydney</p>
+                                <p>Exact address provided upon scheduling</p>
+                                <div class="map-details">
+                                    <p><strong>Parking:</strong> Street and nearby lot parking available</p>
+                                    <p><strong>Public Transport:</strong> Accessible by bus and train</p>
+                                    <p><strong>Accessibility:</strong> Ground floor access, wheelchair friendly</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="faq-section">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-grid">
+                        <details class="faq-item">
+                            <summary>Do you accept dental insurance?</summary>
+                            <div class="faq-content">
+                                <p>We work with most major dental insurance plans and will help you maximize your benefits. Our team can verify your coverage and provide estimates before treatment begins.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item">
+                            <summary>What should I bring to my first appointment?</summary>
+                            <div class="faq-content">
+                                <p>Please bring a valid ID, insurance cards (if applicable), list of current medications, and any recent dental X-rays from another practice. We'll handle the rest!</p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item">
+                            <summary>Do you offer emergency appointments?</summary>
+                            <div class="faq-content">
+                                <p>Yes, we reserve time slots for dental emergencies. If you're experiencing severe pain or trauma, please call us immediately, even outside regular hours.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item">
+                            <summary>What makes your practice anxiety-friendly?</summary>
+                            <div class="faq-content">
+                                <p>We offer multiple sedation options, create a calming environment, take extra time to explain procedures, and never rush patients. Our team is specially trained in anxiety management techniques.</p>
+                            </div>
+                        </details>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Calm Care</h4>
+                    <p>Compassionate dental care in Newtown</p>
+                    <p>Email: <a href="mailto:contact@calmcaredental.com">contact@calmcaredental.com</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="treatments.html">Treatments</a></li>
+                        <li><a href="cosmetic-restorative.html">Cosmetic & Restorative</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Accessibility</h4>
+                    <p>We are committed to providing accessible dental care for all patients. Please contact us for accommodations.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Calm Care. All rights reserved. | Designed for accessibility and patient comfort.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
